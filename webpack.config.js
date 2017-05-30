@@ -3,16 +3,20 @@ var __dirname = path.dirname('./');
 console.error(__dirname);
 
 module.exports = {
-  entry: './app/main.ts',
+    //entry: './app/main.ts',
+    entry: {
+        'main': './app/main.ts',
+        'manage': './app/manage.ts'
+    },
   output: {
-    filename: './wwwroot/js/bundle.js',
+    filename: './wwwroot/js/[name]-bundle.js',
     path: path.resolve(__dirname, "wwwroot/dist"),
   },
   devServer: {
     contentBase: "./",
     //publicPath: "./wwwroot",
     compress: true,
-    port: 9000
+    port: 9002
   },
   module: {
     rules: [

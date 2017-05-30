@@ -2,8 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\app",
-    "\\node_modules",
-    "\\wwwroot"
+    "\\app\\core",
+    "\\wwwroot",
+    "\\wwwroot\\dist",
+    "\\wwwroot\\dist\\wwwroot",
+    "\\wwwroot\\dist\\wwwroot\\js",
+    "\\wwwroot\\js",
+    "\\wwwroot\\Manage"
   ],
   "SelectedNode": "\\webpack.config.js",
   "PreviewInSolutionExplorer": false
