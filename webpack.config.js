@@ -16,7 +16,7 @@ module.exports = {
     contentBase: "./",
     //publicPath: "./wwwroot",
     compress: true,
-    port: 9002
+    port: 9001
   },
   module: {
     rules: [
