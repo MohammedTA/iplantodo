@@ -30,4 +30,17 @@ var submit = document.getElementById('addTask');
             });
     }
 
+    let task = new jf.TestData<jf.Task>();
+
+    task.mainValue = new jf.Task("planning for new sprint");
+
+    console.log("main task: "+task.mainValue.name);
+
+    task.urgentTasks = function(task1, task2) { 
+            return task1.name +", "+ task2.name
+          };
+
+      console.log("urgent tasks: "+task.urgentTasks(task.mainValue,new jf.Task("code review and test")));    
+
+
 export default jf;
