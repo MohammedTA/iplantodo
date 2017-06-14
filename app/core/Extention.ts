@@ -1,4 +1,4 @@
-export class TestData<T> {
-    singleValue: T;
+export class Extention<T> {
+    mainValue: T;
     urgentTasks: (x: T, y: T) => string;
 }
